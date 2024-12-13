@@ -9,8 +9,8 @@ const Index = () => {
         <h2 className="text-xl mb-2">Generative AI & Machine Learning Engineer</h2>
         <p className="text-sm">
           Email: pritam1998patil@gmail.com | {' '}
-          <a href="https://linkedin.com/in/pritam-patil" className="text-blue-600 hover:underline print:text-black">
-            LinkedIn: linkedin.com/in/pritam-patil
+          <a href="https://linkedin.com/in/pritam-patil-0a6552166/" className="text-blue-600 hover:underline print:text-black">
+            LinkedIn: linkedin.com/in/pritam-patil-0a6552166/
           </a>
         </p>
       </header>
@@ -32,12 +32,13 @@ const Index = () => {
         <ul className="text-sm list-disc pl-5 space-y-1">
           <li><span className="font-semibold">Programming Languages:</span> Python, JavaScript (Node.js, React.js)</li>
           <li><span className="font-semibold">AI & Machine Learning:</span> Large Language Models (LLMs), Hugging Face Transformers, LangChain, Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP)</li>
-          <li><span className="font-semibold">Web Technologies:</span> React.js, Node.js, FastAPI, PostgreSQL</li>
+          <li><span className="font-semibold">Full Stack Development:</span> React.js, Node.js, FastAPI, PostgreSQL</li>
           <li><span className="font-semibold">Cloud & DevOps:</span> AWS Services (SageMaker, Textract, OpenSearch, S3, Step Functions), Cloud Computing, Workflow Automation</li>
           <li><span className="font-semibold">AI Development Tools:</span> OpenAI API, Pinecone, Cursor AI, Copilot, Lovable AI</li>
         </ul>
       </section>
 
+      {/* Rest of the code remains unchanged */}
       {/* Professional Experience */}
       <section className="mb-6">
         <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Professional Experience</h2>
