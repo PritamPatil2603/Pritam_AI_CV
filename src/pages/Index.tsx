@@ -1,12 +1,122 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="max-w-[21cm] mx-auto bg-white p-8 print:p-6 min-h-[29.7cm]">
+      {/* Header / Contact Info */}
+      <header className="text-center mb-6">
+        <h1 className="text-2xl font-bold text-[#1a365d] mb-2">Pritam Patil</h1>
+        <h2 className="text-xl mb-2">Generative AI & Machine Learning Engineer</h2>
+        <p className="text-sm">
+          Email: pritam1998patil@gmail.com | {' '}
+          <a href="https://linkedin.com/in/pritam-patil" className="text-blue-600 hover:underline print:text-black">
+            LinkedIn: linkedin.com/in/pritam-patil
+          </a>
+        </p>
+      </header>
+
+      {/* Professional Summary */}
+      <section className="mb-6">
+        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Professional Summary</h2>
+        <p className="text-sm">
+          Innovative Machine Learning Engineer with 3+ years of expertise in designing cutting-edge AI solutions and
+          enterprise-grade machine learning pipelines. Proven track record of developing advanced Retrieval-Augmented
+          Generation (RAG) systems, AI-powered chatbots, and full-stack web applications. Specialized in leveraging large
+          language models (LLMs) to transform software development workflows and drive operational efficiency.
+        </p>
+      </section>
+
+      {/* Technical Skills */}
+      <section className="mb-6">
+        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Technical Skills</h2>
+        <ul className="text-sm list-disc pl-5 space-y-1">
+          <li><span className="font-semibold">Programming Languages:</span> Python, JavaScript (Node.js, React.js)</li>
+          <li><span className="font-semibold">AI & Machine Learning:</span> Large Language Models (LLMs), Hugging Face Transformers, LangChain, Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP)</li>
+          <li><span className="font-semibold">Web Technologies:</span> React.js, Node.js, FastAPI, PostgreSQL</li>
+          <li><span className="font-semibold">Cloud & DevOps:</span> AWS Services (SageMaker, Textract, OpenSearch, S3, Step Functions), Cloud Computing, Workflow Automation</li>
+          <li><span className="font-semibold">AI Development Tools:</span> OpenAI API, Pinecone, Cursor AI, Copilot, Lovable AI</li>
+        </ul>
+      </section>
+
+      {/* Professional Experience */}
+      <section className="mb-6">
+        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Professional Experience</h2>
+        <div className="mb-4">
+          <div className="flex justify-between items-center mb-1">
+            <h3 className="font-semibold text-sm">Generative AI & Machine Learning Engineer — Accenture</h3>
+            <span className="text-sm">April 2022 – Present</span>
+          </div>
+          <ul className="text-sm list-disc pl-5 space-y-1">
+            <li>Engineered enterprise-grade Retrieval-Augmented Generation (RAG) pipeline using AWS SageMaker and OpenSearch, improving document retrieval accuracy by 30%</li>
+            <li>Automated large-scale PDF data extraction with Amazon Textract, reducing manual processing time by 70%</li>
+            <li>Developed AI-powered chatbots using Hugging Face Transformers and LangChain for enhanced customer interaction</li>
+            <li>Built scalable AWS pipelines with Step Functions and Fargate, processing over 1 TB of data monthly</li>
+            <li>Orchestrated document ingestion and retrieval workflows, processing 1,000+ PDFs daily</li>
+            <li>Created full-stack integrations for AI-driven applications using React.js and FastAPI</li>
+            <li>Collaborated with cross-functional teams, achieving 95% project success rate</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Key Projects */}
+      <section className="mb-6">
+        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Key Projects</h2>
+        
+        <div className="mb-4">
+          <h3 className="font-semibold text-sm mb-1">AI Voice Agent for Healthcare Sector</h3>
+          <p className="text-sm italic mb-1">Technologies: OpenAI GPT-4, Claude 3.5 Sonnet, ElevenLabs, React.js, Twilio, GoHighLevel, Make.com</p>
+          <ul className="text-sm list-disc pl-5 space-y-1">
+            <li>Implemented Twilio integration for automated voice processing of inbound/outbound calls</li>
+            <li>Utilized GPT-4 and ElevenLabs for advanced natural language understanding and voice synthesis</li>
+            <li>Integrated GoHighLevel CRM's calendar API for dynamic appointment scheduling, supporting 500+ monthly bookings</li>
+            <li>Automated email and SMS reminders, reducing patient no-show rates by 25%</li>
+          </ul>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold text-sm mb-1">AI-Powered CRM and Chatbots</h3>
+          <p className="text-sm italic mb-1">Technologies: GoHighLevel, LangChain, GPT-4, Node.js, React.js</p>
+          <ul className="text-sm list-disc pl-5 space-y-1">
+            <li>Developed AI-integrated CRM systems with multi-channel chatbots across Instagram, Facebook, and web platforms</li>
+            <li>Increased lead conversion rates by 25% through automated follow-up strategies</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Education and Certifications */}
+      <section className="mb-6">
+        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Education & Certifications</h2>
+        <div className="mb-2">
+          <div className="flex justify-between items-center">
+            <h3 className="font-semibold text-sm">Bachelor of Technology — Institute of Chemical Technology (ICT)</h3>
+            <span className="text-sm">Graduation Year: 2021</span>
+          </div>
+        </div>
+        <ul className="text-sm list-disc pl-5 space-y-1">
+          <li>DeepLearning.AI Generative AI Specialist</li>
+          <li>AWS Certified Machine Learning – Specialty</li>
+          <li>LangChain for LLM Application Development</li>
+        </ul>
+      </section>
+
+      {/* Key Achievements */}
+      <section className="mb-6">
+        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Key Achievements</h2>
+        <ul className="text-sm list-disc pl-5 space-y-1">
+          <li>Reduced project delivery times by 40% through innovative AI tool integration</li>
+          <li>Trained and mentored team members in AI-enhanced workflow adoption</li>
+        </ul>
+      </section>
+
+      {/* Professional Interests */}
+      <section>
+        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Professional Interests</h2>
+        <ul className="text-sm list-disc pl-5 space-y-1">
+          <li>Developing AI-powered agents for software development automation</li>
+          <li>Exploring advanced Large Language Models (LLMs)</li>
+          <li>Mentoring emerging engineers in AI technologies</li>
+        </ul>
+      </section>
     </div>
   );
 };
