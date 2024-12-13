@@ -64,7 +64,18 @@ const Index = () => {
         <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Key Projects</h2>
         
         <div className="mb-4">
-          <h3 className="font-semibold text-sm mb-1">AI Voice Agent for Healthcare Sector</h3>
+          <h3 className="font-semibold text-sm mb-1">
+            AI Voice Agent for Healthcare Sector
+            {' '}
+            <a 
+              href="https://futureaichatbot.com/" 
+              className="text-blue-600 hover:underline print:text-black"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              (futureaichatbot.com)
+            </a>
+          </h3>
           <p className="text-sm italic mb-1">Technologies: OpenAI GPT-4, Claude 3.5 Sonnet, ElevenLabs, React.js, Twilio, GoHighLevel, Make.com</p>
           <ul className="text-sm list-disc pl-5 space-y-1">
             <li>Implemented Twilio integration for automated voice processing of inbound/outbound calls</li>
@@ -75,7 +86,18 @@ const Index = () => {
         </div>
 
         <div className="mb-4">
-          <h3 className="font-semibold text-sm mb-1">AI-Powered CRM and Chatbots</h3>
+          <h3 className="font-semibold text-sm mb-1">
+            AI-Powered CRM and Chatbots
+            {' '}
+            <a 
+              href="https://futureaimarketing.in/" 
+              className="text-blue-600 hover:underline print:text-black"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              (futureaimarketing.in)
+            </a>
+          </h3>
           <p className="text-sm italic mb-1">Technologies: GoHighLevel, LangChain, GPT-4, Node.js, React.js</p>
           <ul className="text-sm list-disc pl-5 space-y-1">
             <li>Developed AI-integrated CRM systems with multi-channel chatbots across Instagram, Facebook, and web platforms</li>
