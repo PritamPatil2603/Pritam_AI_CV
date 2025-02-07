@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Index = () => {
@@ -30,15 +31,14 @@ const Index = () => {
       <section className="mb-6">
         <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Technical Skills</h2>
         <ul className="text-sm list-disc pl-5 space-y-1">
-          <li><span className="font-semibold">Programming Languages:</span> Python, JavaScript (Node.js, React.js)</li>
-          <li><span className="font-semibold">AI & Machine Learning:</span> Large Language Models (LLMs), Hugging Face Transformers, LangChain, Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP)</li>
+          <li><span className="font-semibold">Programming Languages:</span> Python, JavaScript (Node.js, React.js, Next.js)</li>
+          <li><span className="font-semibold">AI & Machine Learning:</span> Large Language Models (LLMs), Hugging Face Transformers, LangChain, Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Deep Learning, AI Agents</li>
           <li><span className="font-semibold">Full Stack Development:</span> React.js, Node.js, FastAPI, PostgreSQL</li>
-          <li><span className="font-semibold">Cloud & DevOps:</span> AWS Services (SageMaker, Textract, OpenSearch, S3, Step Functions), Cloud Computing, Workflow Automation</li>
-          <li><span className="font-semibold">AI Development Tools:</span> OpenAI API, Pinecone, Cursor AI, Copilot, Lovable AI</li>
+          <li><span className="font-semibold">Cloud & DevOps:</span> AWS Services (SageMaker, Textract, OpenSearch, S3, Step Functions), Cloud Computing, Workflow Automation, Vercel, Google Cloud Platform(GCP)</li>
+          <li><span className="font-semibold">AI Development Tools:</span> OpenAI API, Pinecone, Cursor AI, Copilot, Lovable AI, CrewAI, LangGraph, Claude 3.5 Sonnet Computer Use</li>
         </ul>
       </section>
 
-      {/* Rest of the code remains unchanged */}
       {/* Professional Experience */}
       <section className="mb-6">
         <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Professional Experience</h2>
@@ -76,7 +76,7 @@ const Index = () => {
               (futureaichatbot.com)
             </a>
           </h3>
-          <p className="text-sm italic mb-1">Technologies: OpenAI GPT-4, Claude 3.5 Sonnet, ElevenLabs, React.js, Twilio, GoHighLevel, Make.com</p>
+          <p className="text-sm italic mb-1">Technologies: OpenAI GPT-4, Claude 3.5 Sonnet, ElevenLabs, React.js, Twilio, GoHighLevel, n8n, CrewAI Agents</p>
           <ul className="text-sm list-disc pl-5 space-y-1">
             <li>Implemented Twilio integration for automated voice processing of inbound/outbound calls</li>
             <li>Utilized GPT-4 and ElevenLabs for advanced natural language understanding and voice synthesis</li>
@@ -119,6 +119,7 @@ const Index = () => {
           <li>DeepLearning.AI Generative AI Specialist</li>
           <li>AWS Certified Machine Learning – Specialty</li>
           <li>LangChain for LLM Application Development</li>
+          <li>Multi AI Agent Systems with crewAI</li>
         </ul>
       </section>
 
