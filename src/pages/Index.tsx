@@ -85,6 +85,24 @@ const Index = () => {
           </ul>
         </div>
 
+        <div className="mb-6"></div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold text-sm mb-1">
+            Upstage AI Healthcare Document Parser
+          </h3>
+          <p className="text-sm italic mb-1">Technologies: React.js, TypeScript, Supabase, Groq AI, Tailwind CSS, Retrieval-Augmented Generation (RAG)</p>
+          <ul className="text-sm list-disc pl-5 space-y-1">
+            <li>Architected and implemented a full-stack healthcare document processing system utilizing Retrieval-Augmented Generation (RAG) for intelligent document analysis and query handling</li>
+            <li>Engineered a robust document chunking system with optimized embedding generation, enabling efficient processing and retrieval of medical information</li>
+            <li>Implemented real-time chat interface powered by Groq's LLaMA 3.3 70B model, providing context-aware responses to medical document queries</li>
+            <li>Built secure user authentication and document management system using Supabase, ensuring HIPAA-compliant data handling</li>
+            <li>Developed responsive UI with React.js and Tailwind CSS, focusing on intuitive document upload and interaction workflows</li>
+            <li>Utilized TypeScript for enhanced code reliability and maintainability across the entire application stack</li>
+            <li>Created scalable Edge Functions for document processing, embedding generation, and AI-powered query handling</li>
+          </ul>
+        </div>
+
         <div className="mb-4">
           <h3 className="font-semibold text-sm mb-1">
             AI-Powered CRM and Chatbots
