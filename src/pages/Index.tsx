@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Index = () => {
@@ -85,7 +84,7 @@ const Index = () => {
           </ul>
         </div>
 
-        <div className="mb-6"></div>
+        <div className="mb-8"></div>
 
         <div className="mb-4">
           <h3 className="font-semibold text-sm mb-1">
