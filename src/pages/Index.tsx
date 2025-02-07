@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Index = () => {
@@ -11,6 +12,11 @@ const Index = () => {
           Email: pritam1998patil@gmail.com | {' '}
           <a href="https://linkedin.com/in/pritam-patil-0a6552166/" className="text-blue-600 hover:underline print:text-black">
             LinkedIn: linkedin.com/in/pritam-patil-0a6552166/
+          </a>
+        </p>
+        <p className="text-sm">
+          <a href="https://github.com/PritamPatil2603" className="text-blue-600 hover:underline print:text-black">
+            GitHub: github.com/PritamPatil2603
           </a>
         </p>
       </header>
