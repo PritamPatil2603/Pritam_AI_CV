@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Index = () => {
@@ -94,17 +93,20 @@ const Index = () => {
 
         <div className="mb-4">
           <h3 className="font-semibold text-sm mb-1">
-            Upstage AI Healthcare Document Parser
+            AI-Powered Document Analysis & Chat Platform | Full Stack Developer & AI Engineer
           </h3>
-          <p className="text-sm italic mb-1">Technologies: React.js, TypeScript, Supabase, Groq AI, Tailwind CSS, Retrieval-Augmented Generation (RAG)</p>
+          <p className="text-sm italic mb-1">
+            Technical Stack: Frontend: React, TypeScript, Tailwind CSS, shadcn/ui | Backend: Supabase (Edge Functions, Auth, Storage), PostgreSQL | AI/ML: OpenAI API, Vector Embeddings, RAG Architecture | Infrastructure: Vercel, Supabase Cloud
+          </p>
           <ul className="text-sm list-disc pl-5 space-y-1">
-            <li>Architected and implemented a full-stack healthcare document processing system utilizing Retrieval-Augmented Generation (RAG) for intelligent document analysis and query handling</li>
-            <li>Engineered a robust document chunking system with optimized embedding generation, enabling efficient processing and retrieval of medical information</li>
-            <li>Implemented real-time chat interface powered by Groq's LLaMA 3.3 70B model, providing context-aware responses to medical document queries</li>
-            <li>Built secure user authentication and document management system using Supabase, ensuring HIPAA-compliant data handling</li>
-            <li>Developed responsive UI with React.js and Tailwind CSS, focusing on intuitive document upload and interaction workflows</li>
-            <li>Utilized TypeScript for enhanced code reliability and maintainability across the entire application stack</li>
-            <li>Created scalable Edge Functions for document processing, embedding generation, and AI-powered query handling</li>
+            <li>Architected and implemented a production-grade document analysis platform using React, TypeScript, and Supabase, enabling intelligent document processing and interactive AI-powered chat functionality</li>
+            <li>Engineered a sophisticated RAG (Retrieval Augmented Generation) system for accurate document analysis, implementing semantic chunking and vector embeddings for enhanced context retrieval</li>
+            <li>Built a responsive chat interface with real-time streaming capabilities, leveraging OpenAI's API for dynamic content generation and implementing advanced prompt engineering techniques for improved response accuracy</li>
+            <li>Developed robust backend architecture using Supabase Edge Functions, implementing secure file storage, user authentication, and real-time database operations</li>
+            <li>Implemented efficient document processing pipeline with automated chunking, embedding generation, and context-aware retrieval system</li>
+            <li>Enhanced system reliability through implementation of error handling, loading states, and proper cleanup functions, resulting in a stable production environment</li>
+            <li>Optimized application performance through proper state management, efficient data fetching, and implementation of responsive design patterns</li>
+            <li>Successfully deployed and maintained the application on Vercel, implementing custom routing solutions and ensuring seamless client-side navigation</li>
           </ul>
         </div>
 
