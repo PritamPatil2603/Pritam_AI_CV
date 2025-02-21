@@ -82,17 +82,18 @@ const Index = () => {
 
         <div className="mb-4">
           <h3 className="font-semibold text-sm mb-1">
-            AI-Powered Document Analysis & Chat Platform | Full Stack Developer & AI Engineer
-            {' '}
-            <a 
+            AI-Powered Document Analysis & Chat Platform
+          </h3>
+          <p className="text-sm mb-1">
+            Link: <a 
               href="https://upstageai-document-parser.vercel.app/" 
               className="text-blue-600 hover:underline print:text-black"
               target="_blank"
               rel="noopener noreferrer"
             >
-              (upstageai-document-parser.vercel.app)
+              upstageai-document-parser.vercel.app
             </a>
-          </h3>
+          </p>
           <p className="text-sm italic mb-1">
             Technical Stack: Frontend: React, TypeScript, Tailwind CSS, shadcn/ui | Backend: Supabase (Edge Functions, Auth, Storage), PostgreSQL | AI/ML: OpenAI API, Vector Embeddings, RAG Architecture | Infrastructure: Vercel, Supabase Cloud
           </p>
@@ -135,7 +136,6 @@ const Index = () => {
         <div className="mb-2">
           <div className="flex justify-between items-center">
             <h3 className="font-semibold text-sm">Bachelor of Technology — Institute of Chemical Technology (ICT)</h3>
-            <span className="text-sm">Graduation Year: 2021</span>
           </div>
         </div>
         <ul className="text-sm list-disc pl-5 space-y-1">
