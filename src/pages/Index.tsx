@@ -20,25 +20,14 @@ const Index = () => {
         </p>
       </header>
 
-      {/* Professional Summary */}
-      <section className="mb-6">
-        <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Professional Summary</h2>
-        <p className="text-sm">
-          Innovative Machine Learning Engineer with 3+ years of expertise in designing cutting-edge AI solutions and
-          enterprise-grade machine learning pipelines. Proven track record of developing advanced Retrieval-Augmented
-          Generation (RAG) systems, AI-powered chatbots, and full-stack web applications. Specialized in leveraging large
-          language models (LLMs) to transform software development workflows and drive operational efficiency.
-        </p>
-      </section>
-
       {/* Technical Skills */}
       <section className="mb-6">
         <h2 className="text-lg font-bold text-[#1a365d] mb-2 border-b border-gray-300">Technical Skills</h2>
         <ul className="text-sm list-disc pl-5 space-y-1">
-          <li><span className="font-semibold">Programming Languages:</span> Python, JavaScript (Node.js, React.js, Next.js)</li>
-          <li><span className="font-semibold">AI & Machine Learning:</span> Large Language Models (LLMs), Hugging Face Transformers, LangChain, Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Deep Learning, AI Agents</li>
-          <li><span className="font-semibold">Full Stack Development:</span> React.js, Node.js, FastAPI, PostgreSQL</li>
-          <li><span className="font-semibold">Cloud & DevOps:</span> AWS Services (SageMaker, Textract, OpenSearch, S3, Step Functions), Cloud Computing, Workflow Automation, Vercel, Google Cloud Platform(GCP)</li>
+          <li><span className="font-semibold">Programming Languages:</span> Python, JavaScript, TypeScript</li>
+          <li><span className="font-semibold">AI & Machine Learning:</span> Large Language Models (LLMs), Hugging Face Transformers, LangChain, Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Deep Learning, AI Agents, Vector Embeddings</li>
+          <li><span className="font-semibold">Full Stack Development:</span> React.js, Node.js, FastAPI, PostgreSQL, Supabase (Edge Functions, Auth, Storage), Tailwind CSS</li>
+          <li><span className="font-semibold">Cloud & DevOps:</span> AWS Services (SageMaker, Textract, OpenSearch, S3, Step Functions, Bedrock, EC2), Cloud Computing, Workflow Automation, Vercel, Google Cloud Platform(GCP)</li>
           <li><span className="font-semibold">AI Development Tools:</span> OpenAI API, Pinecone, Cursor AI, Copilot, Lovable AI, CrewAI, LangGraph, Claude 3.5 Sonnet Computer Use</li>
         </ul>
       </section>
@@ -94,6 +83,15 @@ const Index = () => {
         <div className="mb-4">
           <h3 className="font-semibold text-sm mb-1">
             AI-Powered Document Analysis & Chat Platform | Full Stack Developer & AI Engineer
+            {' '}
+            <a 
+              href="https://upstageai-document-parser.vercel.app/" 
+              className="text-blue-600 hover:underline print:text-black"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              (upstageai-document-parser.vercel.app)
+            </a>
           </h3>
           <p className="text-sm italic mb-1">
             Technical Stack: Frontend: React, TypeScript, Tailwind CSS, shadcn/ui | Backend: Supabase (Edge Functions, Auth, Storage), PostgreSQL | AI/ML: OpenAI API, Vector Embeddings, RAG Architecture | Infrastructure: Vercel, Supabase Cloud
