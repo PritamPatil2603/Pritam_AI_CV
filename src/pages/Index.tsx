@@ -59,16 +59,17 @@ const Index = () => {
         <div className="mb-4">
           <h3 className="font-semibold text-sm mb-1">
             AI Voice Agent for Healthcare Sector
-            {' '}
-            <a 
+          </h3>
+          <p className="text-sm mb-1">
+            Link: <a 
               href="https://futureaichatbot.com/" 
               className="text-blue-600 hover:underline print:text-black"
               target="_blank"
               rel="noopener noreferrer"
             >
-              (futureaichatbot.com)
+              futureaichatbot.com
             </a>
-          </h3>
+          </p>
           <p className="text-sm italic mb-1">Technologies: OpenAI GPT-4, Claude 3.5 Sonnet, ElevenLabs, React.js, Twilio, GoHighLevel, n8n, CrewAI Agents</p>
           <ul className="text-sm list-disc pl-5 space-y-1">
             <li>Implemented Twilio integration for automated voice processing of inbound/outbound calls</li>
@@ -76,59 +77,59 @@ const Index = () => {
             <li>Integrated GoHighLevel CRM's calendar API for dynamic appointment scheduling, supporting 500+ monthly bookings</li>
             <li>Automated email and SMS reminders, reducing patient no-show rates by 25%</li>
           </ul>
-        </div>
+      </div>
 
-        <div className="mb-12"></div>
+      <div className="mb-12"></div>
 
-        <div className="mb-4">
-          <h3 className="font-semibold text-sm mb-1">
-            AI-Powered Document Analysis & Chat Platform
-          </h3>
-          <p className="text-sm mb-1">
-            Link: <a 
-              href="https://upstageai-document-parser.vercel.app/" 
-              className="text-blue-600 hover:underline print:text-black"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              upstageai-document-parser.vercel.app
-            </a>
-          </p>
-          <p className="text-sm italic mb-1">
-            Technical Stack: Frontend: React, TypeScript, Tailwind CSS, shadcn/ui | Backend: Supabase (Edge Functions, Auth, Storage), PostgreSQL | AI/ML: OpenAI API, Vector Embeddings, RAG Architecture | Infrastructure: Vercel, Supabase Cloud
-          </p>
-          <ul className="text-sm list-disc pl-5 space-y-1">
-            <li>Architected and implemented a production-grade document analysis platform using React, TypeScript, and Supabase, enabling intelligent document processing and interactive AI-powered chat functionality</li>
-            <li>Engineered a sophisticated RAG (Retrieval Augmented Generation) system for accurate document analysis, implementing semantic chunking and vector embeddings for enhanced context retrieval</li>
-            <li>Built a responsive chat interface with real-time streaming capabilities, leveraging OpenAI's API for dynamic content generation and implementing advanced prompt engineering techniques for improved response accuracy</li>
-            <li>Developed robust backend architecture using Supabase Edge Functions, implementing secure file storage, user authentication, and real-time database operations</li>
-            <li>Implemented efficient document processing pipeline with automated chunking, embedding generation, and context-aware retrieval system</li>
-            <li>Enhanced system reliability through implementation of error handling, loading states, and proper cleanup functions, resulting in a stable production environment</li>
-            <li>Optimized application performance through proper state management, efficient data fetching, and implementation of responsive design patterns</li>
-            <li>Successfully deployed and maintained the application on Vercel, implementing custom routing solutions and ensuring seamless client-side navigation</li>
-          </ul>
-        </div>
+      <div className="mb-4">
+        <h3 className="font-semibold text-sm mb-1">
+          AI-Powered Document Analysis & Chat Platform
+        </h3>
+        <p className="text-sm mb-1">
+          Link: <a 
+            href="https://upstageai-document-parser.vercel.app/" 
+            className="text-blue-600 hover:underline print:text-black"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            upstageai-document-parser.vercel.app
+          </a>
+        </p>
+        <p className="text-sm italic mb-1">
+          Technical Stack: Frontend: React, TypeScript, Tailwind CSS, shadcn/ui | Backend: Supabase (Edge Functions, Auth, Storage), PostgreSQL | AI/ML: OpenAI API, Vector Embeddings, RAG Architecture | Infrastructure: Vercel, Supabase Cloud
+        </p>
+        <ul className="text-sm list-disc pl-5 space-y-1">
+          <li>Architected and implemented a production-grade document analysis platform using React, TypeScript, and Supabase, enabling intelligent document processing and interactive AI-powered chat functionality</li>
+          <li>Engineered a sophisticated RAG (Retrieval Augmented Generation) system for accurate document analysis, implementing semantic chunking and vector embeddings for enhanced context retrieval</li>
+          <li>Built a responsive chat interface with real-time streaming capabilities, leveraging OpenAI's API for dynamic content generation and implementing advanced prompt engineering techniques for improved response accuracy</li>
+          <li>Developed robust backend architecture using Supabase Edge Functions, implementing secure file storage, user authentication, and real-time database operations</li>
+          <li>Implemented efficient document processing pipeline with automated chunking, embedding generation, and context-aware retrieval system</li>
+          <li>Enhanced system reliability through implementation of error handling, loading states, and proper cleanup functions, resulting in a stable production environment</li>
+          <li>Optimized application performance through proper state management, efficient data fetching, and implementation of responsive design patterns</li>
+          <li>Successfully deployed and maintained the application on Vercel, implementing custom routing solutions and ensuring seamless client-side navigation</li>
+        </ul>
+      </div>
 
-        <div className="mb-4">
-          <h3 className="font-semibold text-sm mb-1">
-            AI-Powered CRM and Chatbots
-            {' '}
-            <a 
-              href="https://futureaimarketing.in/" 
-              className="text-blue-600 hover:underline print:text-black"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              (futureaimarketing.in)
-            </a>
-          </h3>
-          <p className="text-sm italic mb-1">Technologies: GoHighLevel, LangChain, GPT-4, Node.js, React.js</p>
-          <ul className="text-sm list-disc pl-5 space-y-1">
-            <li>Developed AI-integrated CRM systems with multi-channel chatbots across Instagram, Facebook, and web platforms</li>
-            <li>Increased lead conversion rates by 25% through automated follow-up strategies</li>
-          </ul>
-        </div>
-      </section>
+      <div className="mb-4">
+        <h3 className="font-semibold text-sm mb-1">
+          AI-Powered CRM and Chatbots
+        </h3>
+        <p className="text-sm mb-1">
+          Link: <a 
+            href="https://futureaimarketing.in/" 
+            className="text-blue-600 hover:underline print:text-black"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            futureaimarketing.in
+          </a>
+        </p>
+        <p className="text-sm italic mb-1">Technologies: GoHighLevel, LangChain, GPT-4, Node.js, React.js</p>
+        <ul className="text-sm list-disc pl-5 space-y-1">
+          <li>Developed AI-integrated CRM systems with multi-channel chatbots across Instagram, Facebook, and web platforms</li>
+          <li>Increased lead conversion rates by 25% through automated follow-up strategies</li>
+        </ul>
+      </div>
 
       {/* Education and Certifications */}
       <section className="mb-6">
